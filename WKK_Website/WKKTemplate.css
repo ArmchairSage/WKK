@@ -1,0 +1,216 @@
+﻿body {
+    font-family: Arial,Helvetica,sans-serif;
+    background-color: #413223;
+    background-repeat: repeat-x;
+    margin: 0 auto;
+    padding: 0;
+    top: 0;
+    width: 950px;
+    text-align: center;
+}
+
+.wrapper {
+    border-bottom: #0000cc 0px solid;
+    border-left: #0000cc 0px solid;
+    margin: 0px auto 0px auto;
+    background-color: #413223; 
+    background-repeat: repeat-x;
+    width: 950px;
+    border-top: #0000cc 0px solid;
+    border-right: #0000cc 0px solid;
+    position: relative;
+}
+
+.box {
+    border-style: none;
+    border-color: inherit;
+    border-width: 0px;
+    margin: 10px;
+    width: 720px;
+    background-position: 0px 0px;
+    background-color: #ffcccc;
+    float: left;
+}
+
+.innerbox {
+    border-bottom: 0px;
+    border-left: 0px;
+    padding-bottom: 7px;
+    margin: 0px;
+    padding-left: 7px;
+    width: 706px;
+    padding-right: 7px;
+    background-position: 0px 100%;
+    border-top: 0px;
+    border-right: 0px;
+    padding-top: 7px;
+}
+
+.clearfloat {
+    border-bottom: 0px;
+    border-left: 0px;
+    background-color: #ffcccc;
+    margin: 10px;
+    clear: both;
+    border-top: 0px;
+    border-right: 0px;
+}
+
+.menubox {
+    border-style: none;
+    border-color: inherit;
+    border-width: 0px;
+    margin: 10px;
+    width: 150px;
+    background-position: 0px 0px;
+    background-color: inherit;
+    float: left;
+}
+
+.menuinnerbox {
+    border-bottom: 0px;
+    border-left: 0px;
+    padding-bottom: 7px;
+    margin: 0px;
+    padding-left: 7px;
+    width: 136px;
+    padding-right: 7px;
+    background-position: 0px 100%;
+    border-top: 0px;
+    border-right: 0px;
+    padding-top: 7px;
+}
+
+.header {
+    width: 950px;
+    height: 150px;
+    background-image: url('../images/WKKHeader.png');
+    background-repeat: repeat-x;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    text-align: right;
+}
+
+.title {
+    font-size: 40px;
+    font-family: Arial,Helvetica,sans-serif;
+    color: #000080;
+    text-align: right;
+}
+
+.breadcrumb {
+    border-bottom: #0000cc 0px solid;
+    text-align: left;
+    border-left: #0000cc 0px solid;
+    margin: 0px auto 0px auto;
+    background-color: #ffcccc;
+    width: 720px;
+    height: 30px;
+    background-repeat: no-repeat;
+    border-top: #0000cc 0px solid;
+    border-right: #0000cc 0px solid;
+    float: left;
+}
+
+.threeColumnbox {
+    border-style: none;
+    border-color: inherit;
+    border-width: 0px;
+    background-color: #ffcccc;
+    margin: 10px;
+    width: 230px;
+    background-position: 0px 0px;
+    float: left;
+}
+
+.pagetitle {
+    font-size: x-large;
+    font-family: Arial,Helvetica,sans-serif;
+    color: #000080;
+    text-align: center;
+}
+
+.threeColumninnerbox {
+    border-bottom: 0px;
+    border-left: 0px;
+    padding-bottom: 7px;
+    margin: 0px;
+    padding-left: 7px;
+    width: 216px;
+    padding-right: 7px;
+    background-position: 0px 100%;
+    border-top: 0px;
+    border-right: 0px;
+    padding-top: 7px;
+}
+
+.twoColumnbox {
+    border-style: none;
+    border-color: inherit;
+    border-width: 0px;
+    background-color: #ffcccc;
+    margin: 10px;
+    width: 320px;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    float: left
+}
+
+.twoColumninnerbox {
+    border-bottom: 0px;
+    border-left: 0px;
+    padding-bottom: 7px;
+    margin: 0px;
+    padding-left: 7px;
+    width: 306px;
+    padding-right: 7px;
+    background-repeat: no-repeat;
+    background-position: 0px 100%;
+    border-top: 0px;
+    border-right: 0px;
+    padding-top: 7px;
+}
+
+.columntitle {
+    font-size: medium;
+    font-family: Arial,Helvetica,sans-serif;
+    color: #000080;
+    text-align: center;
+}
+
+.numberColumnbox {
+    border-style: none;
+    border-color: inherit;
+    border-width: 0px;
+    margin: 10px;
+    width: 130px;
+    background-position: 0px 0px;
+    background-color: #ffcccc;
+    float: left
+}
+
+.numberColumninnerbox {
+    border-bottom: 0px;
+    border-left: 0px;
+    padding-bottom: 7px;
+    margin: 0px;
+    padding-left: 7px;
+    width: 116px;
+    padding-right: 7px;
+    background-position: 0px 100%;
+    border-top: 0px;
+    border-right: 0px;
+    padding-top: 7px;
+}
+
+.container {
+    border-style: none;
+    border-color: inherit;
+    border-width: 0px;
+    margin: 10px;
+    width: 750px;
+    background-position: 0px 0px;
+    float: left;
+    text-align: left;
+}

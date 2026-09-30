@@ -1,0 +1,288 @@
+﻿body { /* Phthalo Green Page Background */
+    font-family: Arial,Helvetica,sans-serif;
+    background-image: url('images/TheWallpaper.jpg');
+    background-size: auto;
+    margin: 0 auto;
+    padding: 0;
+    top: 0;
+    width: 949px;
+    text-align: center;
+    height: 755px;
+}
+
+.wrapper { /* Dark Green Heading */
+    border-bottom: #0000cc 0px solid;
+    border-left: #0000cc 0px solid;
+    margin: 0px auto 0px auto;
+    background-color: darkslategray; 
+    width: 950px;
+    height: 190px;
+    border-top: #0000cc 0px solid;
+    border-right: #0000cc 0px solid;
+    position: relative;
+    padding-top: 5px;
+}
+
+.box {
+    border-style: none;
+    border-color: inherit;
+    border-width: 0px;
+    margin: 10px;
+    width: 720px;
+    background-position: 0px 0px;
+    background-color: cadetblue;
+    float: left;
+}
+
+.innerbox {
+    border-bottom: 0px;
+    border-left: 0px;
+    padding-bottom: 7px;
+    margin: 0px;
+    padding-left: 7px;
+    width: 706px;
+    padding-right: 7px;
+    background-position: 0px 100%;
+    border-top: 0px;
+    border-right: 0px;
+    padding-top: 7px;
+}
+
+.clearfloat {
+    border-bottom: 0px;
+    border-left: 0px;
+    background-color: cadetblue;
+    margin: 10px;
+    clear: both;
+    border-top: 0px;
+    border-right: 0px;
+}
+
+.menubox { /* Teal Page Hyperlink Box */
+    border-style: none;
+    border-color: inherit;
+    border-width: 0px;
+    margin-top: 10px;
+    width: 950px;
+    background-position: 0px 0px;
+    background-color: teal;
+    float: left;
+}
+
+.menuinnerbox { /* Text Holder inside Hyperlink Box */
+    border-bottom: 0px;
+    border-left: 0px;
+    padding-bottom: 7px;
+    margin: 0px;
+    padding-left: 7px;
+    width: 935px;
+    padding-right: 7px;
+    background-position: 0px 100%;
+    border-top: 0px;
+    border-right: 0px;
+    padding-top: 7px;
+    font-weight: bold;
+    font-family: Arial,Helvetica,sans-serif;
+    color: khaki;
+}
+
+.header { /* Image inside Dark Green Heading */
+    width: 860px;
+    height: 120px;
+    background-image: url(images/WKKHeaderCrop.jpg);
+    margin: 20px 20px 20px 20px;
+    padding: 20px 30px 10px 20px;
+    top: 0;
+    text-align: left;
+}
+
+.logo { /* Wacky Kar Klub Logo */
+    width: 120px;
+    height: 120px;
+    padding-right: 310px;
+}
+
+.title { /* Wacky Kar Klub Website Title */
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial,Helvetica,sans-serif;
+    color: whitesmoke;
+    background-color: darkslategray;
+    text-align: left;
+    padding: 5px 10px 0px 10px;
+}
+
+.pagetitle { /* Subheading Title Heading for each page */
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial,Helvetica,sans-serif;
+    color: khaki;
+    text-align: left;
+    padding: 10px 0px 10px 15px;
+    background-color: darkslategray;
+}
+
+.breadcrumb {
+    border-bottom: #0000cc 0px solid;
+    text-align: left;
+    border-left: #0000cc 0px solid;
+    margin: 0px auto 0px auto;
+    background-color: cadetblue;
+    width: 720px;
+    height: 30px;
+    background-repeat: no-repeat;
+    border-top: #0000cc 0px solid;
+    border-right: #0000cc 0px solid;
+    float: left;
+}
+
+.threeColumnbox { /* Adjustable width column */
+    border-style: none;
+    border-color: inherit;
+    border-width: 0px;
+    background-color: cadetblue; /* Pink Column background colour */
+    margin: 10px;
+    width: auto;
+    background-position: 0px 0px;
+    float: left;
+}
+
+.threeColumninnerbox { /* Adjustable width column text */
+    border-bottom: 0px;
+    border-left: 0px;
+    padding-bottom: 7px;
+    margin: 0px;
+    padding-left: 7px;
+    width: auto;
+    padding-right: 7px;
+    background-position: 0px 100%;
+    border-top: 0px;
+    border-right: 0px;
+    padding-top: 7px;
+}
+
+.twoColumnbox { /* Fixed width column */
+    border-style: none;
+    border-color: inherit;
+    border-width: 0px;
+    background-color: cadetblue; /* Pink Column background colour */
+    margin: 10px;
+    width: 370px;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    float: left
+}
+
+.twoColumninnerbox { /* Fixed width column text */
+    font-size: medium;
+    font-weight: bold;
+    font-family: Arial,Helvetica,sans-serif;
+    border-style: none;
+    border-color: inherit;
+    border-width: 0px;
+    padding: 7px;
+    margin: 0px;
+    width: 355px;
+    background-repeat: no-repeat;
+    background-position: 0px 100%;
+    color: white;
+}
+
+.columntitle {
+    font-size: medium;
+    font-family: Arial,Helvetica,sans-serif;
+    color: #000080;
+    text-align: center;
+}
+
+.numberColumnbox {
+    border-style: none;
+    border-color: inherit;
+    border-width: 0px;
+    margin: 10px;
+    width: 130px;
+    background-position: 0px 0px;
+    background-color: cadetblue;
+    float: left
+}
+
+.numberColumninnerbox {
+    border-bottom: 0px;
+    border-left: 0px;
+    padding-bottom: 7px;
+    margin: 0px;
+    padding-left: 7px;
+    width: 116px;
+    padding-right: 7px;
+    background-position: 0px 100%;
+    border-top: 0px;
+    border-right: 0px;
+    padding-top: 7px;
+}
+
+.container { /* Container for holding relevant text for each page */
+    border-style: solid;
+    border-color: darkslategray;
+    border-width: 10px;
+    margin-top: 20px;
+    width: 930px;
+    background-position: 0px 0px;
+    float: left;
+    text-align: left;
+    background-color: cadetblue;
+}
+
+.footer { /* Dark Green footer */
+    position: relative;
+    border: 0px solid #0000cc;
+    background-color: darkslategray;
+    width: 949px;
+    height: 419px;
+    position: relative;
+    padding-top: 5px;
+    top: 0px;
+    left: 1px;
+    margin-left: auto;
+    margin-top: 202px;
+}
+
+.footertitle { /* Contact Information Title */
+    border: 10px solid darkslategray;
+    width: 735px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial,Helvetica,sans-serif;
+    color: khaki;
+    text-align: left;
+    padding: 10px 0px 10px 15px;
+    background-color: darkcyan;
+}
+
+.footerinner { /* Wacky Kar Klub Contact Information in Footer */
+    border: 10px solid darkslategray;
+    width: 392px;
+    background-position: 0px 0px;
+    float: left;
+    text-align: left;
+    background-color: cadetblue;
+    padding: 10px 0px 10px 15px;
+    color: black;
+    font-weight: bold;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+.map {
+    width: 120px;
+    height: 150px;
+    float: left;
+    padding-top: 17px;
+    padding-right: 27px;
+}
+
+.logofooter { /* Wacky Kar Klub Logo in Footer */
+    width: 150px;
+    height: 150px;
+    float: right;
+    padding-top: 67px;
+    padding-right: 20px;
+}

@@ -1,0 +1,14 @@
+C:\Users\50122851\source\repos\WKK_Websitesln\WKK_Website\bin\WKK_Website.dll.config
+C:\Users\50122851\source\repos\WKK_Websitesln\WKK_Website\bin\WKK_Website.dll
+C:\Users\50122851\source\repos\WKK_Websitesln\WKK_Website\bin\WKK_Website.pdb
+C:\Users\50122851\source\repos\WKK_Websitesln\WKK_Website\obj\Debug\WKK_Website.csproj.AssemblyReference.cache
+C:\Users\50122851\source\repos\WKK_Websitesln\WKK_Website\obj\Debug\WKK_Website.csproj.CoreCompileInputs.cache
+C:\Users\50122851\source\repos\WKK_Websitesln\WKK_Website\obj\Debug\WKK_Website.dll
+C:\Users\50122851\source\repos\WKK_Websitesln\WKK_Website\obj\Debug\WKK_Website.pdb
+C:\Users\50122851\OneDrive - Belfast Metropolitan College\FD SoftEngi\Web Development\Assessments\WDA2\WKK_Websitesln\WKK_Website\bin\WKK_Website.dll.config
+C:\Users\50122851\OneDrive - Belfast Metropolitan College\FD SoftEngi\Web Development\Assessments\WDA2\WKK_Websitesln\WKK_Website\bin\WKK_Website.dll
+C:\Users\50122851\OneDrive - Belfast Metropolitan College\FD SoftEngi\Web Development\Assessments\WDA2\WKK_Websitesln\WKK_Website\bin\WKK_Website.pdb
+C:\Users\50122851\OneDrive - Belfast Metropolitan College\FD SoftEngi\Web Development\Assessments\WDA2\WKK_Websitesln\WKK_Website\obj\Debug\WKK_Website.csproj.AssemblyReference.cache
+C:\Users\50122851\OneDrive - Belfast Metropolitan College\FD SoftEngi\Web Development\Assessments\WDA2\WKK_Websitesln\WKK_Website\obj\Debug\WKK_Website.csproj.CoreCompileInputs.cache
+C:\Users\50122851\OneDrive - Belfast Metropolitan College\FD SoftEngi\Web Development\Assessments\WDA2\WKK_Websitesln\WKK_Website\obj\Debug\WKK_Website.dll
+C:\Users\50122851\OneDrive - Belfast Metropolitan College\FD SoftEngi\Web Development\Assessments\WDA2\WKK_Websitesln\WKK_Website\obj\Debug\WKK_Website.pdb

@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="WKK.Master.cs" Inherits="WKK_Website.Home" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="WKKTemplate.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="wrapper">
+            <div class="header" >
+                <a class="title">
+                    BMC Fashions <br />
+                    On-line
+                </a>
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <div class="menubox">
+            <div class = "menuinnerbox">
+                Home <br/>
+                <br/>
+                Products <br/>
+                <br/>
+                Shopping Cart <br/>
+                <br/>
+                Invoicing <br/>
+                <br/>
+            </div>
+        </div>
+
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

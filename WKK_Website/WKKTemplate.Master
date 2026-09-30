@@ -1,0 +1,93 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="WKKTemplate.Master.cs" Inherits="WKK_Website.Home" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <title></title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="WKKStyles.css" rel="stylesheet" />
+</head>
+<body> <!-- Phthalo Green Page Background -->
+    <form id="form1" runat="server">
+        <div class="wrapper"> <!-- Dark Green Heading -->
+            <div class="header"> <!-- Image inside Dark Green Heading -->
+                <a class="logo" href="Home.aspx" target="_self"> <!-- Wacky Kar Klub Logo -->
+                   <img src="images/WKKLogoCompressed.png" alt="Go to Home Page" width="120" height="120">
+                </a>
+
+                <a class="title"> <!-- Wacky Kar Klub Website Title -->
+                    Wacky Kar Klub
+                </a>
+            </div>
+
+            <div class="menubox"> <!-- Teal Page Hyperlink Box -->
+                <div class = "menuinnerbox"> <!-- Text Holder inside Hyperlink Box -->
+                    <asp:HyperLink ID="HylMerchandise" runat="server" ForeColor="Khaki" NavigateUrl="Merchandise.aspx">Club Merchandise</asp:HyperLink> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:HyperLink ID="HylServicing" runat="server" ForeColor="Khaki" NavigateUrl="Servicing.aspx">Servicing</asp:HyperLink>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:HyperLink ID="HylNewsEvents" runat="server" ForeColor="Khaki" NavigateUrl="NewsEvents.aspx">News & Events</asp:HyperLink>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:HyperLink ID="HylCommunityBlog" runat="server" ForeColor="Khaki" NavigateUrl="CommunityBlog.aspx">Community Blog</asp:HyperLink>
+                </div>
+            </div>
+
+            <div class="container"> <!-- Container for holding relevant text for each page -->
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+
+    <div class="clearfloat">
+    </div>
+
+    <div class="footer"> <!-- Dark Green footer -->
+        <a class="logofooter" href="Home.aspx" target="_self"> <!-- Wacky Kar Klub Logo in Footer -->
+            <img src="images/WKKLogoFooter.png" width="150" height="150">
+        </a>
+
+        <div class="footertitle"> <!-- Contact Information Title -->
+            Contact Information
+        </div>
+
+        <div class="footerinner"> 
+            Telephone: 0-5012-285125
+            <br /> <br />
+            E-mail: <a href="mailto:info@wkkni.co.uk">info@wkkni.co.uk</a><br />
+            <br />
+            <asp:Label ID="lblName" runat="server" Text="Name:" ForeColor="White"></asp:Label>&nbsp;&nbsp;
+            <asp:TextBox ID="txtName" runat="server" AutoCompleteType="Disabled"></asp:TextBox>&nbsp;
+            <asp:RequiredFieldValidator ID="rfvName" runat="server" ControlToValidate="txtName" ErrorMessage="Must not be blank!" Font-Bold="True" ForeColor="#990033"></asp:RequiredFieldValidator>
+
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br /> <br />
+
+            <asp:Label ID="lblEmail" runat="server" ForeColor="White">Email:</asp:Label>&nbsp;&nbsp;
+            <asp:TextBox ID="txtEmail" runat="server" TextMode="Email" AutoCompleteType="Disabled"></asp:TextBox>&nbsp;
+            <asp:RequiredFieldValidator ID="rfxEmail" runat="server" ControlToValidate="txtEmail" ErrorMessage="Must not be blank!" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" Font-Bold="True" ForeColor="#990033"></asp:RequiredFieldValidator>
+
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <br /> <br />
+
+            <asp:Label ID="lblQuery" runat="server" ForeColor="White">Query:</asp:Label>
+            &nbsp;<asp:TextBox ID="txtQuery" runat="server" TextMode="MultiLine" AutoCompleteType="Disabled"></asp:TextBox>&nbsp;
+            <asp:RequiredFieldValidator ID="rfvQuery" runat="server" ControlToValidate="txtQuery" ErrorMessage="Must not be blank!" Font-Bold="True" ForeColor="#990033"></asp:RequiredFieldValidator>
+            <br /> <br />
+
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Button ID="btnContact" runat="server" Text="Send" Width="62px" OnClick="btnContact_Click" />
+        &nbsp;&nbsp;
+
+            <asp:Label ID="lblOutput" runat="server" ForeColor="White"></asp:Label>
+
+        </div>
+
+        <a class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23110.28985487074!2d-6.669154444949962!3d54.34701824615091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48608d557dcb168d%3A0xb92e637dcdc91848!2sArmagh!5e1!3m2!1sen!2suk!4v1765358573259!5m2!1sen!2suk" style="border-style: none; border-color: inherit; border-width: 0; height: 263px; width: 331px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </a>
+
+    </div>
+    </form>
+
+    </body>
+</html>

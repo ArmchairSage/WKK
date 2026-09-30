@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<merchandise>
+	<item>
+		<imgUrl>images/ArthurBadges.jpg</imgUrl>
+		<name>Metallic Car Brand Badges</name>
+		<type>Collectible</type>
+		<owner>Arthur</owner>
+		<produced>1929</produced>
+		<origin>United Kingdom</origin>
+		<price>£24.99</price>
+	</item>
+	
+	<item>
+		<imgUrl>images/BenGloves.jpg</imgUrl>
+		<name>Antique Leather Racing Gloves</name>
+		<type>Apparel</type>
+		<owner>Ben</owner>
+		<produced>1927</produced>
+		<origin>United Kingdom</origin>
+		<price>£34.99</price>
+	</item>
+
+	<item>
+		<imgUrl>images/CiaraHats.jpg</imgUrl>
+		<name>Fancy Hats</name>
+		<type>Apparel</type>
+		<owner>Ciara</owner>
+		<produced>1924</produced>
+		<origin>France</origin>
+		<price>£44.99</price>
+	</item>
+
+	<item>
+		<imgUrl>images/DebsCoat.jpg</imgUrl>
+		<name>Blue Long Coat</name>
+		<type>Apparel</type>
+		<owner>Deborah</owner>
+		<produced>1935</produced>
+		<origin>France</origin>
+		<price>£39.99</price>
+	</item>
+
+	<item>
+		<imgUrl></imgUrl>
+		<name>Floor Mat</name>
+		<type>Automotive Accessory</type>
+		<owner>Elle</owner>
+		<produced>1919</produced>
+		<origin>United Kingdom</origin>
+		<price>£19.99</price>
+	</item>
+
+	<item>
+		<imgUrl></imgUrl>
+		<name>Vintage Car Poster</name>
+		<type>Memorabilia</type>
+		<owner>Finn</owner>
+		<produced>1925</produced>
+		<origin>Ireland</origin>
+		<price>£29.99</price>
+	</item>
+
+	<item>
+		<imgUrl></imgUrl>
+		<name>Old Calendar</name>
+		<type>Memorabilia</type>
+		<owner>Grace</owner>
+		<produced>1939</produced>
+		<origin>Italy</origin>
+		<price>£24.99</price>
+	</item>
+
+	<item>
+		<imgUrl>images/HannahCar.jpg</imgUrl>
+		<name>Vintage Car Model Replica</name>
+		<type>Collectible</type>
+		<owner>Hannah</owner>
+		<produced>1924</produced>
+		<origin>Germany</origin>
+		<price>£34.99</price>
+	</item>
+
+	<item>
+		<imgUrl>images/IsabelleWheel.jpg</imgUrl>
+		<name>Wheel Trim for Car</name>
+		<type>Automotive Accessory</type>
+		<owner>Isabelle</owner>
+		<produced>1926</produced>
+		<origin>Ireland</origin>
+		<price>£24.99</price>
+	</item>
+	
+</merchandise>
